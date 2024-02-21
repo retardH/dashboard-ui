@@ -14,7 +14,7 @@ interface Props {
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
 function Header({ setIsOpen }: Props) {
-  const [showSearchBox, setShowSearchBox] = useState(true);
+  const [showSearchBox, setShowSearchBox] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
