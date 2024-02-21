@@ -1,4 +1,4 @@
-import { cn } from '../../utils/helper';
+import { cn } from '../../utils/helpers';
 
 interface Props {
   icon: JSX.Element;

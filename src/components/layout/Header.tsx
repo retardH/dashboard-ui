@@ -8,7 +8,7 @@ import {
 import { MdClear } from 'react-icons/md';
 import { VscExtensions } from 'react-icons/vsc';
 import { FiMenu } from 'react-icons/fi';
-import { cn } from '../../utils/helper';
+import { cn } from '../../utils/helpers';
 
 interface Props {
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;

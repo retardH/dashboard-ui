@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { MdOutlineChevronRight } from 'react-icons/md';
 import { GoDot } from 'react-icons/go';
-import { cn } from '../utils/helper';
-import { sidebarMenuItems } from '../utils/constants';
+import { cn } from '../../utils/helpers';
+import { sidebarMenuItems } from '../../utils/constants';
 
 interface Props {
   item: (typeof sidebarMenuItems)[0];

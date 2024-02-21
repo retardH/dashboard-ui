@@ -1,4 +1,4 @@
-import { cn } from '../../utils/helper';
+import { cn } from '../../utils/helpers';
 import { FaChevronUp } from 'react-icons/fa';
 
 interface Props {

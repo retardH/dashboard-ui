@@ -1,8 +1,8 @@
 import React from 'react';
-import { cn } from '../../utils/helper';
+import { cn } from '../../utils/helpers';
 import { MdClear } from 'react-icons/md';
 import { appAndPages, sidebarMenuItems } from '../../utils/constants';
-import MenuItem from '../MenuItem';
+import MenuItem from './MenuItem';
 interface Props {
   isOpen: boolean;
   setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
